@@ -18,7 +18,7 @@ const TodoList = () => {
 
   return (
     <div>
-      <h2>To-Do List</h2>
+      <h2>To-Do List (refresh page after adding each task to display)</h2>
       <ul>
         {tasks.map(task => (
           <li key={task.id}>
